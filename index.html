@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto</title>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; box-sizing: border-box;">
+    <header>
+        <nav
+            style="display:flex; list-style: none; justify-content: space-between; align-items: center; border-bottom: 1px solid black; padding: 0 5px 0 5px;">
+            <img src="star.png" alt="">
+            <p style="font-weight: 700;">Progetto</p>
+            <ul style="display: flex; list-style: none; gap: 20px; ">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#due">Select</a></li>
+                <li><a href="#tre">Form</a></li>
+                <li><a href="#table">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="display: flex; flex-direction: column; height: 90vh; gap: 20px; padding: 0 5px 0 5px;">
+        <section id="hero">
+            <article>
+                <h1>primo articolo</h1>
+                <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia doloribus voluptas dignissimos velit <br>
+                    soluta delectus dolor totam eius commodi obcaecati nihil recusandae, similique odit hic dolorem,<br>
+                     sit vel exercitationem consequuntur.</strong></p>
+            </article>
+            <article>
+                <h1>secondo articolo</h1>
+                <p><del>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia doloribus voluptas dignissimos velit <br>
+                    soluta delectus dolor totam eius commodi obcaecati nihil recusandae, similique odit hic dolorem,<br>
+                     sit vel exercitationem consequuntur.</del></p>
+            </article>
+            <article>
+                <h1>terzo articolo</h1>
+                <p><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia doloribus voluptas dignissimos velit <br>
+                    soluta delectus dolor totam eius commodi obcaecati nihil recusandae, similique odit hic dolorem,<br>
+                     sit vel exercitationem consequuntur.</em></p>
+            </article>
+        </section>
+        <section id="due">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lunedì</th>
+                        <th>Martedì</th>
+                        <th>Mercoledì</th>
+                        <th>Giovedì</th>
+                        <th>Venerdì</th>
+                        <th>Sabato</th>
+                        <th>Domenica</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                    </tr>
+            </table>
+        </section>
+        <section id="tre">
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="cognome">Cognome:</label>
+                <input type="text" id="cognome" name="cognome" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="data_nascita">Data di Nascita:</label>
+                <input type="date" id="data_nascita" name="data_nascita"><br><br>
+
+                <label for="sesso">Sesso:</label>
+                <select id="sesso" name="sesso">
+                    <option value="" disabled selected>Seleziona il sesso...</option>
+                    <option value="maschio">Maschio</option>
+                    <option value="femmina">Femmina</option>
+                    <option value="altro">Altro</option>
+                </select><br><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Iscriviti alla newsletter</label><br><br>
+
+                <input type="submit" value="Invia">
+            </form>
+        </section>
+    </main>
+    <footer style="text-align: center; padding: 10px; border-top: 1px solid black;">
+        <address>
+            Developed by <a href="mailto:webmaster@example.com">Tobia</a>.<br>
+            Visit us at: Example.com <br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+    </footer>
+</body>
+
+</html>
